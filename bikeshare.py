@@ -43,7 +43,7 @@ def get_filters():
     return city, month, day
 
     
-
+#Shorten the list for months and day of week
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
