@@ -21,6 +21,9 @@ def get_filters():
     # Get user input for city (Chicago, New York City, Washington). HINT: Use a while loop to handle invalid inputs
     city = input('Please input a city name from the following: New York City, Chicago, Washington.').lower()
     
+    if city == 'Washington':
+	print("Warning: This city does not have a lot of user data.")
+
     while city not in ['chicago','new york city','washington']:
         city = input("Invalid city name. Please put Chicago, New York City, or Washington")
         
@@ -40,7 +43,7 @@ def get_filters():
     return city, month, day
 
     
-
+#Shorten the list for months and day of week
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
