@@ -4,10 +4,10 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Git Project
 
 ### Description
-This repo is to test my git skills
+This project looks at bikeshare data for new york, chicago, and washington.
 
 ### Files used
 Include the files used
